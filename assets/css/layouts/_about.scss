@@ -1,0 +1,18 @@
+
+.about-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    .single-about-content h4 {
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px;
+    }
+}

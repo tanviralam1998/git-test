@@ -1,0 +1,29 @@
+
+.content-top{
+    .single-address{
+        i{
+            font-size: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            line-height: 50px;
+            transition: 0.3s;
+            background-color: $border-gray;
+            &:hover{
+                background-color: $primary_color;
+                color: $white;
+            }
+        }
+        h4 {
+            text-transform: capitalize;
+            padding: 20px 0;
+            & span{
+                display: block;
+                font-weight: 300;
+            }
+        }
+    }
+}
+// input,textarea{
+    
+// }

@@ -1,0 +1,39 @@
+@import "../base/color";
+
+.services-area {
+    background-color: $bg_gray;
+
+    .single-service-content {
+        background-color: $white;
+        padding: 80px 20px;
+        border: 1px solid $border-gray;
+        transition: .3s;
+        &:hover{
+            border-color: $primary_color;
+            i{
+                background-color: $primary_color;
+                color: $white;
+                border-color: $primary_color;
+            }
+        }
+        i {
+            font-size: 20px;
+            border: 1px solid $border-gray;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50%;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: $primary_color;
+                color: $white;
+            }
+        }
+
+        h4 {
+            margin: 20px 0;
+        }
+    }
+}

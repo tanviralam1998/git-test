@@ -1,0 +1,25 @@
+
+.single-blog {
+    background-color: $bg-gray;
+    overflow: hidden;
+    &:hover{
+        .blog-img{
+            transform: scale(1.1);
+        }
+    }
+    .blog-img {
+        background-size: cover;
+        height: 220px;
+        transition: .3s;
+    }
+    .single-blog-content {
+        padding: 20px;
+        h4 {
+            margin: 15px 0;
+        }
+        .btn-2{
+            margin-left: 0;
+        }
+    }
+
+}
